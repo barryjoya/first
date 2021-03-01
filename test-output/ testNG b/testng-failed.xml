@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ testNG b]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" testNG Parameters(failed)">
+    <parameter name=" firstName" value="baryalai"/>
+    <parameter name=" lastName " value="joyandah "/>
+    <classes>
+      <class name="testNG.TestNGparameters">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testNG.TestNGparameters -->
+    </classes>
+  </test> <!--  testNG Parameters(failed) -->
+</suite> <!-- Failed suite [ testNG b] -->

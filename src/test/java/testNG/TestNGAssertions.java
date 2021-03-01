@@ -9,22 +9,25 @@ public class TestNGAssertions {
 	// Assertions are used to validate the expected result against the actual 
 	//TestNG provides two types of assertion
 	// Hard Assertion : if expected result is not equal to actual execution will stop 
-	// Soft Assertion : if expected result is not equal to actual execution will continue 
+	// Soft Assertion : if expected result is not equal to actual execution will continue/ it will not stop the execution at the end of test will tell you that this test is not valid or failed and this s the result. 
 	// and at the end of execution test will be failed. 
 	
 	
 	@Test (enabled= false)// this will ignore the test from execution
 	public void hardAssertion() {
 		int actualValue = 10;
-		int expectedValue = 1;
+		int expectedValue = 10;
 		
+		
+// hard assertion
 		Assert.assertEquals(actualValue, expectedValue);
 		System.out.println("This line will execute if Assertion passed");
+		// if we want to fail test case if the test not pass we use hard assertion
 		
 	}
 	
 	
-	@Test 
+	@Test (enabled = true)
 	public void SoftAssertion() {
 		
 		// TestNG provides a class call SoftAssert and we create obj of SoftAssert. 
@@ -43,6 +46,8 @@ public class TestNGAssertions {
 		System.out.println("This is after 3rd Assertion");
 		
 		softAssert.assertAll();
+		
+		
 		
 	}
 	

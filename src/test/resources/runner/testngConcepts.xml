@@ -3,10 +3,21 @@
 
 <suite name="TestNG Concepts">
 	<test name=" TestNG Parameters">
-	<parameter  name ="firsName" value ="ahmad"/>
+	<parameter  name ="firstName" value ="ahmad"/>
 	<parameter  name ="lastName" value ="shaiq"/>
 		<classes>
 			<class name="testNG.TestNGparameters" />
 		</classes>
 	</test>
+	
+	<test name = "Parallel Execution" parallel ="methods" thread-count ="2">
+	<classes>
+	<class name = "testNG.ParallelExecution"/>
+
+	
+	</classes>
+	
+	</test>
+	
+	
 </suite>

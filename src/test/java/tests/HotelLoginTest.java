@@ -11,43 +11,89 @@ import pageObj.HotelPageObject;
 import utilities.DriverUtility;
 
 public class HotelLoginTest extends Base {
+	// testNG is simpler in terms of coding than cucumber in cucumber we have to write scenario, scenario outline, then we have to create step defintion, 
+	// in testNG we use one class we can write multiple test cases within the same class. 
 	
-	// I need to declare  an obj of HotelPageObj
-	HotelPageObject hotelpb;
+	//first. I need to declare  an object of HotelPageObj
+	
+	HotelPageObject hotelpb = new HotelPageObject();
 	
 	@BeforeMethod
-	public void beforeMthod() {
-		initializeDriver();
-		logger.info("Browser opened Successfully");
-		
+	public void beforeMethod () {
+		initializeDriver(); 
+		logger.info("browser opened successfully");
 	}
 	
 	@AfterMethod
 	public void afterMethod() {
 		tearDown();
-		logger.info("Browser closed");
+		logger.info("browser closed");
 	}
 	
-	
-	@Test 
+	@Test
 	@Parameters({"userName","password"})
-	public void loginToHotelTest(String userName,String password) {
-		
+	public void loginToHotelTest(String userName, String password) {
 		hotelpb = new HotelPageObject();
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertTrue(hotelpb.signInIsPresent());
 		hotelpb.clickOnSignIn();
-		softAssert.assertTrue(hotelpb.emailAddressIsPresent());
-		softAssert.assertTrue(hotelpb.passwordIsDisplayed());
-		softAssert.assertTrue(hotelpb.forgotPasswordLinkIsDisplayed());
-		softAssert.assertTrue(hotelpb.signInIsDisplayed());
-		DriverUtility.screenShot();
-		hotelpb.SignInMethod(userName, password);
-		softAssert.assertTrue(hotelpb.myAccountTextIsDisplayed());
-		softAssert.assertAll();
-		DriverUtility.screenShot();
+	    softAssert.assertTrue(hotelpb. emailAddressIsPresent());
+	    softAssert.assertTrue(hotelpb. passwordIsDisplayed());
+	    softAssert.assertTrue(hotelpb. forgotPasswordLinkIsDisplayed());
+	    softAssert.assertTrue(hotelpb. signInIsDisplayed());
+	    DriverUtility.screenShot();
+	    hotelpb.signInMethod(userName, password);
+	    //hotelpb.signInMethod(userName, password);
+	    softAssert.assertTrue(hotelpb. myAccountTextIsDisplayed());
+	    softAssert.assertAll();
+	    DriverUtility.screenShot();
+	    
+	    
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+//	
+//	HotelPageObject hotelpb;
+//	
+//	@BeforeMethod
+//	public void beforeMthod() {
+//		initializeDriver();
+//		logger.info("Browser opened Successfully");
+//		
+//	}
+//	
+//	@AfterMethod
+//	public void afterMethod() {
+//		tearDown();
+//		logger.info("Browser closed");
+//	}
+//	
+//	
+//	@Test 
+//	@Parameters({"userName","password"})
+//	public void loginToHotelTest(String userName,String password) {
+//		
+//		hotelpb = new HotelPageObject();
+//		SoftAssert softAssert = new SoftAssert();
+//		softAssert.assertTrue(hotelpb.signInIsPresent());
+//		hotelpb.clickOnSignIn();
+//		softAssert.assertTrue(hotelpb.emailAddressIsPresent());
+//		softAssert.assertTrue(hotelpb.passwordIsDisplayed());
+//		softAssert.assertTrue(hotelpb.forgotPasswordLinkIsDisplayed());
+//		softAssert.assertTrue(hotelpb.signInIsDisplayed());
+//		DriverUtility.screenShot();
+//		hotelpb.signInMethod(userName, password);
+//		softAssert.assertTrue(hotelpb.myAccountTextIsDisplayed());
+//		softAssert.assertAll();
+//		DriverUtility.screenShot();
+//	}
+//	
 	
 	
 	

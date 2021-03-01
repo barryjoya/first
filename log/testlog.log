@@ -1,0 +1,110 @@
+2021-02-27 17:16:09,362 - logger_File -INFO - Start of Execution
+2021-02-27 17:16:29,312 - logger_File -INFO - Browser opened Successfully
+2021-02-27 17:16:29,319 - logger_File -INFO - Test Execution Started
+2021-02-27 17:16:33,631 - logger_File -INFO - Test was passed successfully
+2021-02-27 17:16:33,632 - logger_File -INFO - method name: loginToHotelTest
+2021-02-27 17:16:34,361 - logger_File -INFO - Browser closed
+2021-02-27 17:16:34,379 - logger_File -INFO - End of Execution
+2021-02-28 13:07:36,642 - logger_File -INFO - Start of Execution
+2021-02-28 13:08:29,542 - logger_File -INFO - Test was failed
+2021-02-28 13:08:29,543 - logger_File -INFO - method name: loginToHotelTest
+2021-02-28 13:08:31,503 - logger_File -INFO - End of Execution
+2021-02-28 13:19:19,949 - logger_File -INFO - Start of Execution
+2021-02-28 13:19:33,629 - logger_File -INFO - browser opened successfully
+2021-02-28 13:19:33,631 - logger_File -INFO - Test Execution Started
+2021-02-28 13:19:39,043 - logger_File -INFO - Test was passed successfully
+2021-02-28 13:19:39,044 - logger_File -INFO - method name: loginToHotelTest
+2021-02-28 13:19:39,800 - logger_File -INFO - browser closed
+2021-02-28 13:19:39,820 - logger_File -INFO - End of Execution
+2021-02-28 13:21:58,541 - logger_File -INFO - Start of Execution
+2021-02-28 13:22:22,976 - logger_File -INFO - browser opened successfully
+2021-02-28 13:22:22,977 - logger_File -INFO - Test Execution Started
+2021-02-28 13:22:27,736 - logger_File -INFO - Test was passed successfully
+2021-02-28 13:22:27,737 - logger_File -INFO - method name: loginToHotelTest
+2021-02-28 13:22:28,478 - logger_File -INFO - browser closed
+2021-02-28 13:22:28,503 - logger_File -INFO - End of Execution
+2021-02-28 13:33:49,274 - logger_File -INFO - Start of Execution
+2021-02-28 13:34:02,040 - logger_File -INFO - browser opened successfully
+2021-02-28 13:34:02,042 - logger_File -INFO - Test Execution Started
+2021-02-28 13:34:05,898 - logger_File -INFO - Test was passed successfully
+2021-02-28 13:34:05,899 - logger_File -INFO - method name: loginToHotelTest
+2021-02-28 13:34:06,668 - logger_File -INFO - browser closed
+2021-02-28 13:34:06,694 - logger_File -INFO - End of Execution
+2021-03-01 11:51:28,185 - logger_File -INFO - Start of Execution
+2021-03-01 11:51:42,343 - logger_File -INFO - browser opened successfully
+2021-03-01 11:51:42,356 - logger_File -INFO - Test Execution Started
+2021-03-01 11:51:43,059 - logger_File -INFO - browser opened successfully
+2021-03-01 11:51:43,063 - logger_File -INFO - Test Execution Started
+2021-03-01 11:51:44,546 - logger_File -INFO - Test was failed
+2021-03-01 11:51:44,548 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:51:45,645 - logger_File -INFO - Test was failed
+2021-03-01 11:51:45,647 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:51:46,156 - logger_File -INFO - browser closed
+2021-03-01 11:51:49,698 - logger_File -INFO - Test was failed
+2021-03-01 11:51:49,700 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:51:49,743 - logger_File -INFO - End of Execution
+2021-03-01 11:58:51,118 - logger_File -INFO - Start of Execution
+2021-03-01 11:59:09,789 - logger_File -INFO - browser opened successfully
+2021-03-01 11:59:09,808 - logger_File -INFO - Test Execution Started
+2021-03-01 11:59:12,286 - logger_File -INFO - browser opened successfully
+2021-03-01 11:59:12,289 - logger_File -INFO - Test Execution Started
+2021-03-01 11:59:14,556 - logger_File -INFO - Test was failed
+2021-03-01 11:59:14,557 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:59:15,926 - logger_File -INFO - Test was failed
+2021-03-01 11:59:15,929 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:59:15,932 - logger_File -INFO - browser closed
+2021-03-01 11:59:15,934 - logger_File -INFO - Test was failed
+2021-03-01 11:59:15,934 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 11:59:15,974 - logger_File -INFO - End of Execution
+2021-03-01 12:21:37,980 - logger_File -INFO - Start of Execution
+2021-03-01 12:21:52,374 - logger_File -INFO - browser opened successfully
+2021-03-01 12:21:52,383 - logger_File -INFO - Test Execution Started
+2021-03-01 12:21:52,631 - logger_File -INFO - browser opened successfully
+2021-03-01 12:21:52,635 - logger_File -INFO - Test Execution Started
+2021-03-01 12:21:53,995 - logger_File -INFO - Test was failed
+2021-03-01 12:21:53,996 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:21:55,310 - logger_File -INFO - Test was failed
+2021-03-01 12:21:55,312 - logger_File -INFO - browser closed
+2021-03-01 12:21:55,313 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:21:55,319 - logger_File -INFO - Test was failed
+2021-03-01 12:21:55,319 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:21:55,364 - logger_File -INFO - End of Execution
+2021-03-01 12:35:37,240 - logger_File -INFO - Start of Execution
+2021-03-01 12:35:51,016 - logger_File -INFO - browser opened successfully
+2021-03-01 12:35:51,041 - logger_File -INFO - Test Execution Started
+2021-03-01 12:35:51,510 - logger_File -INFO - browser opened successfully
+2021-03-01 12:35:51,514 - logger_File -INFO - Test Execution Started
+2021-03-01 12:35:53,804 - logger_File -INFO - Test was failed
+2021-03-01 12:35:53,809 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:35:55,322 - logger_File -INFO - Test was failed
+2021-03-01 12:35:55,324 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:35:55,327 - logger_File -INFO - browser closed
+2021-03-01 12:35:55,328 - logger_File -INFO - Test was failed
+2021-03-01 12:35:55,328 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:35:55,378 - logger_File -INFO - End of Execution
+2021-03-01 12:36:58,829 - logger_File -INFO - Start of Execution
+2021-03-01 12:37:13,026 - logger_File -INFO - browser opened successfully
+2021-03-01 12:37:13,039 - logger_File -INFO - Test Execution Started
+2021-03-01 12:37:13,556 - logger_File -INFO - browser opened successfully
+2021-03-01 12:37:13,560 - logger_File -INFO - Test Execution Started
+2021-03-01 12:37:14,773 - logger_File -INFO - Test was failed
+2021-03-01 12:37:14,774 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:37:15,448 - logger_File -INFO - browser closed
+2021-03-01 12:37:15,535 - logger_File -INFO - Test was failed
+2021-03-01 12:37:15,537 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:37:15,543 - logger_File -INFO - Test was failed
+2021-03-01 12:37:15,544 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:37:15,600 - logger_File -INFO - End of Execution
+2021-03-01 12:38:43,062 - logger_File -INFO - Start of Execution
+2021-03-01 12:38:56,617 - logger_File -INFO - browser opened successfully
+2021-03-01 12:38:56,630 - logger_File -INFO - Test Execution Started
+2021-03-01 12:38:57,400 - logger_File -INFO - browser opened successfully
+2021-03-01 12:38:57,402 - logger_File -INFO - Test Execution Started
+2021-03-01 12:38:58,628 - logger_File -INFO - Test was failed
+2021-03-01 12:38:58,628 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:38:59,338 - logger_File -INFO - browser closed
+2021-03-01 12:38:59,438 - logger_File -INFO - Test was failed
+2021-03-01 12:38:59,440 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:38:59,447 - logger_File -INFO - Test was failed
+2021-03-01 12:38:59,448 - logger_File -INFO - method name: loginToHotelTest
+2021-03-01 12:38:59,511 - logger_File -INFO - End of Execution

@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 public class TestNGgroups {
 	
+	// groups work similiar to annotations cucumber on top of feature file i can have multiple tags
+	// we can have more than many class they can be 
 	
 	@Test (groups = {"smokeTests"})
 	public void test() {

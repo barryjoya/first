@@ -20,7 +20,9 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import core.Base;
 
 public class TestNGListeners extends Base implements ITestListener {
-	
+	// it basiclly to listen for the execution what means we are implemneting and interface we have a word implement. itestlistner is a interface.
+	// it has some method and they are abstract they don't have any implementation words.
+	// the job of testNG listener class and implemnt ITestListner to listen each execution 
 	private static final String OUTPUT_FOLDER = "./build/";
 	private static final String FILE_Name = "TestExecutionReport.html";
 	
@@ -39,6 +41,7 @@ public class TestNGListeners extends Base implements ITestListener {
 				e.printStackTrace();
 			}
 		}
+// this is reporting part for testNG ExtentHtmlReporter
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_Name);
 		htmlReporter.config().setDocumentTitle("Automation Test Results");
 		htmlReporter.config().setReportName("Automation Test Results");

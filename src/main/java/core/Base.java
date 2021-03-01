@@ -41,6 +41,7 @@ public class Base {
 			e.printStackTrace();
 		}
 
+		
 		logger = logger.getLogger("logger_File");
 		PropertyConfigurator.configure(log4JFilePath);
 
